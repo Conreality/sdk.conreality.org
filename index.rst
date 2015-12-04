@@ -6,6 +6,7 @@ Conreality Software Development Kit (SDK) Manual
    :maxdepth: 2
 
    intro
+   concepts
    arch
    examples
    faq
