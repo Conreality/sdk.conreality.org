@@ -87,9 +87,9 @@ qthelp:
 	@echo
 	@echo "Build finished; now you can run "qcollectiongenerator" with the" \
 	      ".qhcp project file in $(BUILDDIR)/qthelp, like this:"
-	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/ConrealitySDK.qhcp"
+	@echo "# qcollectiongenerator $(BUILDDIR)/qthelp/conreality-sdk.qhcp"
 	@echo "To view the help file:"
-	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/ConrealitySDK.qhc"
+	@echo "# assistant -collectionFile $(BUILDDIR)/qthelp/conreality-sdk.qhc"
 
 applehelp:
 	$(SPHINXBUILD) -b applehelp $(ALLSPHINXOPTS) $(BUILDDIR)/applehelp
@@ -104,8 +104,8 @@ devhelp:
 	@echo
 	@echo "Build finished."
 	@echo "To view the help file:"
-	@echo "# mkdir -p $$HOME/.local/share/devhelp/ConrealitySDK"
-	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/ConrealitySDK"
+	@echo "# mkdir -p $$HOME/.local/share/devhelp/conreality-sdk"
+	@echo "# ln -s $(BUILDDIR)/devhelp $$HOME/.local/share/devhelp/conreality-sdk"
 	@echo "# devhelp"
 
 epub:

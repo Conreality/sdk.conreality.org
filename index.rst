@@ -1,19 +1,11 @@
-.. Conreality SDK documentation master file, created by
-   sphinx-quickstart on Fri Dec  4 05:22:43 2015.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to Conreality SDK's documentation!
-==========================================
-
-Contents:
+################################################
+Conreality Software Development Kit (SDK) Manual
+################################################
 
 .. toctree::
    :maxdepth: 2
 
-
-
-Indices and tables
+Indices and Tables
 ==================
 
 * :ref:`genindex`
