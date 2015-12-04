@@ -7,6 +7,8 @@ Conreality Software Development Kit (SDK) Manual
 
    intro
    concepts
+   config
+   scenario
    arch
    examples
    faq
