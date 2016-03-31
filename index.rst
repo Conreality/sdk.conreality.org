@@ -6,14 +6,15 @@ Conreality Software Development Kit (SDK) Manual
    :maxdepth: 2
 
    intro
+   arch
    concepts
+   syntax
    devices
    assets
    swarms
    theaters
    scenarios
    targets
-   arch
    examples
    faq
    history
