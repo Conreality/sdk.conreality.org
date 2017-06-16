@@ -14,5 +14,11 @@ Conreality Software Development Kit (SDK) for Ruby
 Examples
 ========
 
+Connecting to the Master
+------------------------
+
+.. literalinclude:: ruby/examples/connect.rb
+   :language: ruby
+
 Frequently Asked Questions (FAQ)
 ================================

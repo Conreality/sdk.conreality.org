@@ -14,5 +14,11 @@ Conreality Software Development Kit (SDK) for Elixir
 Examples
 ========
 
+Connecting to the Master
+------------------------
+
+.. literalinclude:: elixir/examples/connect.exs
+   :language: elixir
+
 Frequently Asked Questions (FAQ)
 ================================

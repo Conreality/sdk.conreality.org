@@ -14,5 +14,11 @@ Conreality Software Development Kit (SDK) for Kotlin
 Examples
 ========
 
+Connecting to the Master
+------------------------
+
+.. literalinclude:: kotlin/examples/connect.kts
+   :language: kotlin
+
 Frequently Asked Questions (FAQ)
 ================================

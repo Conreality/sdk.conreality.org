@@ -10,10 +10,16 @@ Conreality Software Development Kit (SDK) for C++
    Refer to the documentation for the :doc:`Conreality SDK for SQL <sql>`.
 
 .. _libpq:   https://www.postgresql.org/docs/current/static/libpq.html
-.. _libpqxx: http://pqxx.org/development/libpqxx/
+.. _libpqxx: https://github.com/jtv/libpqxx
 
 Examples
 ========
+
+Connecting to the Master
+------------------------
+
+.. literalinclude:: cxx/examples/connect.cc
+   :language: c++
 
 Frequently Asked Questions (FAQ)
 ================================

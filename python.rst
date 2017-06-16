@@ -15,5 +15,11 @@ Conreality Software Development Kit (SDK) for Python
 Examples
 ========
 
+Connecting to the Master
+------------------------
+
+.. literalinclude:: python/examples/connect.py
+   :language: python3
+
 Frequently Asked Questions (FAQ)
 ================================
