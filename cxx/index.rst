@@ -9,9 +9,6 @@ Conreality Software Development Kit (SDK) for C++
    PostgreSQL network protocol (via the libpq_ and/or libpqxx_ libraries).
    Refer to the documentation for the :doc:`Conreality SDK for SQL </sql/index>`.
 
-.. _libpq:   https://www.postgresql.org/docs/current/static/libpq.html
-.. _libpqxx: https://github.com/jtv/libpqxx
-
 Examples
 ========
 
@@ -23,3 +20,17 @@ Connecting to the Master
 
 Frequently Asked Questions (FAQ)
 ================================
+
+Does the Conreality SDK support C++98 or C++03?
+-----------------------------------------------
+
+No, the Conreality SDK for C++ targets exclusively C++11 (which was
+released in 2011) and newer standards of C++.
+
+In case you cannot migrate to C++11, we suggest integrating your legacy C++
+software with Conreality games by issuing SQL commands over the PostgreSQL
+network protocol (via the libpq_ and/or libpqxx_ libraries).
+Refer to the documentation for the :doc:`Conreality SDK for SQL </sql/index>`.
+
+.. _libpq:   https://www.postgresql.org/docs/current/static/libpq.html
+.. _libpqxx: https://github.com/jtv/libpqxx

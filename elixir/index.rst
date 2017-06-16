@@ -9,8 +9,6 @@ Conreality Software Development Kit (SDK) for Elixir
    PostgreSQL network protocol (via the Postgrex_ library).
    Refer to the documentation for the :doc:`Conreality SDK for SQL </sql/index>`.
 
-.. _Postgrex: https://github.com/elixir-ecto/postgrex
-
 Examples
 ========
 
@@ -22,3 +20,5 @@ Connecting to the Master
 
 Frequently Asked Questions (FAQ)
 ================================
+
+.. _Postgrex: https://github.com/elixir-ecto/postgrex

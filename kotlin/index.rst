@@ -9,8 +9,6 @@ Conreality Software Development Kit (SDK) for Kotlin
    PostgreSQL network protocol (e.g., via the PgJDBC_ library).
    Refer to the documentation for the :doc:`Conreality SDK for SQL </sql/index>`.
 
-.. _PgJDBC: https://github.com/pgjdbc/pgjdbc
-
 Examples
 ========
 
@@ -22,3 +20,5 @@ Connecting to the Master
 
 Frequently Asked Questions (FAQ)
 ================================
+
+.. _PgJDBC: https://github.com/pgjdbc/pgjdbc
