@@ -2,6 +2,10 @@
 Conreality Software Development Kit (SDK) for Elixir
 ****************************************************
 
+The Conreality SDK for Elixir is currently at a planning stage at:
+
+https://github.com/conreality/conreality.ex
+
 .. note::
 
    Pending the release of a Conreality SDK for Elixir, you can integrate
