@@ -8,13 +8,7 @@ Conreality Software Development Kit (SDK) Manual
    intro
    arch
    concepts
-   syntax
-   devices
-   assets
-   swarms
-   theaters
-   scenarios
-   targets
+   tutorials
    examples
    faq
    history
