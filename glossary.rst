@@ -16,6 +16,10 @@ Glossary
 
      (Device) Driver Development Kit.
 
+   GDK
+
+     Game Development Kit.
+
    I/O
 
      Input/Output.
