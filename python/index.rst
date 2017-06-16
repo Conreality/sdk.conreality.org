@@ -31,8 +31,13 @@ Connecting to the Master
 Frequently Asked Questions (FAQ)
 ================================
 
-Does the Conreality SDK support Python 2.x?
--------------------------------------------
+How can I help contribute to the development of the Python SDK?
+---------------------------------------------------------------
+
+See https://github.com/conreality/conreality.py
+
+Does the Python SDK also support Python 2.7?
+--------------------------------------------
 
 No, the Conreality SDK for Python targets exclusively Python 3.4.0 (which
 was released in 2014) and newer versions of Python 3.

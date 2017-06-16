@@ -31,4 +31,9 @@ Connecting to the Master
 Frequently Asked Questions (FAQ)
 ================================
 
+How can I help contribute to the development of the Kotlin SDK?
+---------------------------------------------------------------
+
+See https://github.com/conreality/conreality.kt
+
 .. _PgJDBC: https://github.com/pgjdbc/pgjdbc

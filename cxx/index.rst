@@ -34,8 +34,13 @@ Connecting to the Master
 Frequently Asked Questions (FAQ)
 ================================
 
-Does the Conreality SDK support C++98 or C++03?
------------------------------------------------
+How can I help contribute to the development of the C++ SDK?
+------------------------------------------------------------
+
+See https://github.com/conreality/conreality-sdk
+
+Does the C++ SDK also support C++98 or C++03 compilers?
+-------------------------------------------------------
 
 No, the Conreality SDK for C++ targets exclusively C++11 (which was
 released in 2011) and newer standards of C++.

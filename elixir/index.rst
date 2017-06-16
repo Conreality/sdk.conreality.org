@@ -31,4 +31,9 @@ Connecting to the Master
 Frequently Asked Questions (FAQ)
 ================================
 
+How can I help contribute to the development of the Elixir SDK?
+---------------------------------------------------------------
+
+See https://github.com/conreality/conreality.ex
+
 .. _Postgrex: https://github.com/elixir-ecto/postgrex

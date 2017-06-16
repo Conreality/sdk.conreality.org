@@ -31,8 +31,13 @@ Connecting to the Master
 Frequently Asked Questions (FAQ)
 ================================
 
-Does the Conreality SDK support Ruby 1.9, 2.0, or 2.1?
-------------------------------------------------------
+How can I help contribute to the development of the Ruby SDK?
+-------------------------------------------------------------
+
+See https://github.com/conreality/conreality.rb
+
+Does the Ruby SDK also support Ruby 1.9, 2.0, or 2.1?
+-----------------------------------------------------
 
 No, the Conreality SDK for Ruby targets exclusively Ruby 2.2.0 (which was
 released in 2014) and newer versions of Ruby.

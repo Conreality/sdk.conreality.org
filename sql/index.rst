@@ -18,3 +18,8 @@ Examples
 
 Frequently Asked Questions (FAQ)
 ================================
+
+How can I help contribute to the development of the SQL SDK?
+------------------------------------------------------------
+
+See https://github.com/conreality/conreality.sql
