@@ -1,12 +1,36 @@
-*************
-Game Concepts
-*************
+********
+Concepts
+********
 
-This chapter introduces the most important game concepts essential to
-developing Conreality game scenarios.
+This chapter introduces the most important concepts essential to integrating
+third-party software with Conreality games.
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
+*For game concepts essential to developing Conreality game scenarios, refer
+to the Conreality Game Development Kit (GDK) manual.*
 
-   concepts/*
+Master
+======
+
+Slave
+=====
+
+Asset
+=====
+
+Device
+======
+
+Object
+======
+
+Scenario
+========
+
+Swarm
+=====
+
+Target
+======
+
+Theater
+=======

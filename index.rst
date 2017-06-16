@@ -3,14 +3,17 @@ Conreality Software Development Kit (SDK) Manual
 ################################################
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    intro
    arch
    concepts
-   tutorials
-   examples
-   faq
+   SDK for C++ <cxx>
+   SDK for Elixir <elixir>
+   SDK for Kotlin <kotlin>
+   SDK for Python <python>
+   SDK for Ruby <ruby>
+   SDK for SQL <sql>
    history
    glossary
 

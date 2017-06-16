@@ -3,7 +3,9 @@ Introduction
 ************
 
 The Conreality Software Development Kit (SDK) is a toolkit meant for
-developers of Conreality game scenarios.
+developers who wish to integrate third-party software into Conreality games,
+or to otherwise extend game scenarios past the limitations of the scripting
+language sandbox provided by the Conreality Game Development Kit (GDK).
 
-Conreality game scenarios are written in the user-friendly Lua scripting
-language.
+Unlike with the GDK, previous software development experience and competence
+is assumed and required to be able to understand and to work with the SDK.
