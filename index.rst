@@ -8,12 +8,12 @@ Conreality Software Development Kit (SDK) Manual
    intro
    arch
    concepts
-   SDK for C++ <cxx>
-   SDK for Elixir <elixir>
-   SDK for Kotlin <kotlin>
-   SDK for Python <python>
-   SDK for Ruby <ruby>
-   SDK for SQL <sql>
+   SDK for C++    <cxx/index>
+   SDK for Elixir <elixir/index>
+   SDK for Kotlin <kotlin/index>
+   SDK for Python <python/index>
+   SDK for Ruby   <ruby/index>
+   SDK for SQL    <sql/index>
    history
    glossary
 
