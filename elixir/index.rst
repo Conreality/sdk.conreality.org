@@ -13,6 +13,12 @@ https://github.com/conreality/conreality.ex
    PostgreSQL network protocol (via the Postgrex_ library).
    Refer to the documentation for the :doc:`Conreality SDK for SQL </sql/index>`.
 
+Prerequisites
+=============
+
+* `Elixir <https://elixir-lang.org/>`__ 1.4+
+* `Postgrex <https://hex.pm/packages/postgrex>`__ 0.13+
+
 Examples
 ========
 

@@ -13,6 +13,12 @@ https://github.com/conreality/conreality.kt
    PostgreSQL network protocol (e.g., via the PgJDBC_ library).
    Refer to the documentation for the :doc:`Conreality SDK for SQL </sql/index>`.
 
+Prerequisites
+=============
+
+* `Kotlin <https://kotlinlang.org/>`__ 1.1+
+* `PgJDBC <https://jdbc.postgresql.org/>`__ 42+
+
 Examples
 ========
 

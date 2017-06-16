@@ -13,6 +13,15 @@ https://github.com/conreality/conreality-sdk
    PostgreSQL network protocol (via the libpq_ and/or libpqxx_ libraries).
    Refer to the documentation for the :doc:`Conreality SDK for SQL </sql/index>`.
 
+Prerequisites
+=============
+
+* `C++11 <https://en.wikipedia.org/wiki/C%2B%2B11>`__
+  compiler and standard library
+  (recent releases of Clang or GCC will work fine)
+* libpq_
+* libpqxx_
+
 Examples
 ========
 

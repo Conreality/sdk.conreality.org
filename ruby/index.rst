@@ -13,6 +13,12 @@ https://github.com/conreality/conreality.rb
    PostgreSQL network protocol (via the Pg_ library).
    Refer to the documentation for the :doc:`Conreality SDK for SQL </sql/index>`.
 
+Prerequisites
+=============
+
+* `Ruby <https://www.ruby-lang.org/en/>`__ 2.2+
+* `Pg <https://rubygems.org/gems/pg>`__ 0.21+
+
 Examples
 ========
 

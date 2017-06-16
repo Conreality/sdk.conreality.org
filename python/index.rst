@@ -13,6 +13,12 @@ https://github.com/conreality/conreality.py
    PostgreSQL network protocol (e.g., via the Psycopg2_ or asyncpg_ libraries).
    Refer to the documentation for the :doc:`Conreality SDK for SQL </sql/index>`.
 
+Prerequisites
+=============
+
+* `Python <https://www.python.org/>`__ 3.4+
+* `asyncpg <https://pypi.python.org/pypi/asyncpg>`__ 0.11+
+
 Examples
 ========
 
