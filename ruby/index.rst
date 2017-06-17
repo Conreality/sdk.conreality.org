@@ -3,7 +3,6 @@ Conreality Software Development Kit (SDK) for Ruby
 **************************************************
 
 The Conreality SDK for Ruby is currently under active development at:
-
 https://github.com/conreality/conreality.rb
 
 .. note::

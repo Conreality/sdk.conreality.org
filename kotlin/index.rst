@@ -3,7 +3,6 @@ Conreality Software Development Kit (SDK) for Kotlin
 ****************************************************
 
 The Conreality SDK for Kotlin is currently at a planning stage at:
-
 https://github.com/conreality/conreality.kt
 
 .. note::

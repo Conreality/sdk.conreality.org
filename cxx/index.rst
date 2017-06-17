@@ -3,7 +3,6 @@ Conreality Software Development Kit (SDK) for C++
 *************************************************
 
 The Conreality SDK for C++ is currently at a planning stage at:
-
 https://github.com/conreality/conreality-sdk
 
 .. note::

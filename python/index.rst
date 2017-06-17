@@ -3,7 +3,6 @@ Conreality Software Development Kit (SDK) for Python
 ****************************************************
 
 The Conreality SDK for Python is currently at a planning stage at:
-
 https://github.com/conreality/conreality.py
 
 .. note::
