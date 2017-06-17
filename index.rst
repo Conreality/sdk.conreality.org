@@ -10,6 +10,7 @@ Conreality Software Development Kit (SDK) Manual
    concepts
    SDK for C++    <cxx/index>
    SDK for Elixir <elixir/index>
+   SDK for Go     <go/index>
    SDK for Kotlin <kotlin/index>
    SDK for Python <python/index>
    SDK for Ruby   <ruby/index>
