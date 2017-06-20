@@ -8,6 +8,7 @@ Conreality Software Development Kit (SDK) Manual
    intro
    arch
    concepts
+   features
    SDK for C++    <cxx/index>
    SDK for Elixir <elixir/index>
    SDK for Go     <go/index>
