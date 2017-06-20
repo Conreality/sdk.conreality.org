@@ -30,6 +30,11 @@ Connecting to the Master
 .. literalinclude:: examples/connect.go
    :language: go
 
+Documentation
+=============
+
+https://godoc.org/github.com/conreality/conreality.go
+
 Frequently Asked Questions (FAQ)
 ================================
 
