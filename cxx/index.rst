@@ -30,6 +30,12 @@ Connecting to the Master
 .. literalinclude:: examples/connect.cc
    :language: c++
 
+Installation
+============
+
+Documentation
+=============
+
 Frequently Asked Questions (FAQ)
 ================================
 

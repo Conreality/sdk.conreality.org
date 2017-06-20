@@ -27,6 +27,12 @@ Connecting to the Master
 .. literalinclude:: examples/connect.kts
    :language: kotlin
 
+Installation
+============
+
+Documentation
+=============
+
 Frequently Asked Questions (FAQ)
 ================================
 

@@ -27,6 +27,12 @@ Connecting to the Master
 .. literalinclude:: examples/connect.rb
    :language: ruby
 
+Installation
+============
+
+Documentation
+=============
+
 Frequently Asked Questions (FAQ)
 ================================
 

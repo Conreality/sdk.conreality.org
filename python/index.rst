@@ -27,6 +27,12 @@ Connecting to the Master
 .. literalinclude:: examples/connect.py
    :language: python3
 
+Installation
+============
+
+Documentation
+=============
+
 Frequently Asked Questions (FAQ)
 ================================
 

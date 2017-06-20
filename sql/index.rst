@@ -83,6 +83,12 @@ Measuring the Distance Between Objects
 Tutorials
 =========
 
+Installation
+============
+
+Documentation
+=============
+
 Frequently Asked Questions (FAQ)
 ================================
 

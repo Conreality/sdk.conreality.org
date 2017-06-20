@@ -27,6 +27,12 @@ Connecting to the Master
 .. literalinclude:: examples/connect.exs
    :language: elixir
 
+Installation
+============
+
+Documentation
+=============
+
 Frequently Asked Questions (FAQ)
 ================================
 
