@@ -2,7 +2,7 @@
 Conreality Software Development Kit (SDK) for Python
 ****************************************************
 
-The Conreality SDK for Python is currently at a planning stage at:
+The Conreality SDK for Python is currently at an early development stage at:
 https://github.com/conreality/conreality.py
 
 .. note::
@@ -30,6 +30,12 @@ Connecting to the Master
 .. literalinclude:: examples/connect.py
    :language: python3
 
+Connecting to the Master (without the SDK)
+------------------------------------------
+
+.. literalinclude:: examples/connect_asyncpg.py
+   :language: python3
+
 Installation
 ============
 
@@ -51,7 +57,7 @@ How can I help contribute to the development of the Python SDK?
 See https://github.com/conreality/conreality.py
 
 Does the Python SDK also support Python 3.4?
--------------------------------------------
+--------------------------------------------
 
 No, as the third-party dependencies we rely on (specifically, `asyncpg`)
 require Python 3.5 at minimum.
