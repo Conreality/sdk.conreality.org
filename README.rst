@@ -32,7 +32,9 @@ Building the Manual
 
 ::
 
-   $ make html
+   $ make html      # HTML output in .build/html/index.html
+   $ make latexpdf  # PDF  output in .build/latex/conreality-sdk.pdf
+   $ make epub      # EPUB output in .build/epub/conreality-sdk.epub
 
 Publishing the Manual
 =====================
