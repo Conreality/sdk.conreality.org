@@ -2,8 +2,19 @@
 sdk.conreality.org
 ******************
 
+.. image:: https://img.shields.io/badge/license-Public%20Domain-blue.svg
+   :alt: Project license
+   :target: https://creativecommons.org/publicdomain/zero/1.0/
+
+.. image:: https://img.shields.io/travis/conreality/sdk.conreality.org/master.svg
+   :alt: Travis CI build status
+   :target: https://travis-ci.org/conreality/sdk.conreality.org
+
+|
+
 This is the source repository for the
-`Conreality SDK documentation <http://sdk.conreality.org/>`__ website.
+`Conreality Software Development Kit (SDK) <https://sdk.conreality.org/>`__
+manual and website.
 
 All materials herein are released into the
 `public domain <https://creativecommons.org/publicdomain/zero/1.0/>`__.
