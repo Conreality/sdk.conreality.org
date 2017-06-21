@@ -17,6 +17,9 @@ Prerequisites
 
 * `Python <https://www.python.org/>`__ 3.4+
 * `asyncpg <https://pypi.python.org/pypi/asyncpg>`__ 0.11+
+* `lupa <https://pypi.python.org/pypi/lupa>`__ 1.4+ and
+  `Lua <https://www.lua.org/versions.html#5.2>`__ 5.2
+* `numpy <https://pypi.python.org/pypi/numpy>`__ 1.13+
 
 Examples
 ========
@@ -29,6 +32,12 @@ Connecting to the Master
 
 Installation
 ============
+
+https://pypi.python.org/pypi/conreality
+
+.. code-block:: console
+
+   $ pip install conreality
 
 Documentation
 =============
