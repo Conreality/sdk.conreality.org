@@ -15,7 +15,7 @@ https://github.com/conreality/conreality.py
 Prerequisites
 =============
 
-* `Python <https://www.python.org/>`__ 3.4+
+* `Python <https://www.python.org/>`__ 3.5+
 * `asyncpg <https://pypi.python.org/pypi/asyncpg>`__ 0.11+
 * `Lupa <https://pypi.python.org/pypi/lupa>`__ 1.4+ and
   `Lua <https://www.lua.org/versions.html#5.2>`__ 5.2
@@ -50,11 +50,17 @@ How can I help contribute to the development of the Python SDK?
 
 See https://github.com/conreality/conreality.py
 
+Does the Python SDK also support Python 3.4?
+-------------------------------------------
+
+No, as the third-party dependencies we rely on (specifically, `asyncpg`)
+require Python 3.5 at minimum.
+
 Does the Python SDK also support Python 2.7?
 --------------------------------------------
 
-No, the Conreality SDK for Python targets exclusively Python 3.4.0 (which
-was released in 2014) and newer versions of Python 3.
+No, the Conreality SDK for Python targets exclusively Python 3.5 (which
+was released in 2015) and newer versions of Python 3.
 
 In case you cannot migrate from Python 2 to Python 3, we suggest integrating
 your legacy Python software with Conreality games by issuing SQL commands
