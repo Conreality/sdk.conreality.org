@@ -1,0 +1,5 @@
+# Program binaries
+connect.exe
+
+# NuGet packages
+packages/
