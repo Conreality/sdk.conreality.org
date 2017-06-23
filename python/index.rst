@@ -48,6 +48,30 @@ https://pypi.python.org/pypi/conreality
 Documentation
 =============
 
+.. py:module:: conreality.sdk
+
+.. py:class:: Asset
+
+.. py:class:: Binary
+
+.. py:class:: Camera
+
+.. py:class:: AsyncClient
+
+.. py:class:: Client
+
+.. py:class:: Event
+
+.. py:class:: Message
+
+.. py:class:: Object
+
+.. py:class:: Player
+
+.. py:class:: Session
+
+.. py:class:: Theater
+
 Frequently Asked Questions (FAQ)
 ================================
 

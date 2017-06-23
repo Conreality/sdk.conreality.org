@@ -36,6 +36,12 @@ Installation
 Documentation
 =============
 
+.. cpp:class:: conreality::client
+
+.. cpp:class:: conreality::event
+
+.. cpp:class:: conreality::message
+
 Frequently Asked Questions (FAQ)
 ================================
 
