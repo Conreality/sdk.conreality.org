@@ -33,6 +33,30 @@ Installation
 Documentation
 =============
 
+.. py:currentmodule:: Conreality
+
+.. py:class:: Asset
+
+.. py:class:: Binary
+
+.. py:class:: Camera
+
+.. py:class:: Client
+
+.. py:class:: Database
+
+.. py:class:: Event
+
+.. py:class:: Message
+
+.. py:class:: Object
+
+.. py:class:: Player
+
+.. py:class:: Session
+
+.. py:class:: Theater
+
 Frequently Asked Questions (FAQ)
 ================================
 
