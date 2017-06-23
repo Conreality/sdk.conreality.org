@@ -31,7 +31,7 @@ Sending a Text Message
 
 .. code-block:: postgresql
 
-   SELECT conreality.message_send(:message_sender, "Hello, world!")
+   SELECT conreality.message_send("Hello, world!")
      AS message_id;
 
 Sending an Audio Message
@@ -46,7 +46,13 @@ Recording a Game Event
 
 .. code-block:: postgresql
 
-   SELECT conreality.event_send(...) -- TODO
+   SELECT conreality.event_send("met",
+     (SELECT o1.uuid
+        FROM conreality.object o1
+        WHERE o1.label = 'Bob'),
+     (SELECT o2.uuid
+        FROM conreality.object o2
+        WHERE o2.label = 'Alice'))
      AS event_id;
 
 Retrieving a Camera Thumbnail
@@ -56,7 +62,7 @@ Retrieving a Camera Thumbnail
 
    SELECT cf.data AS camera_thumbnail
      FROM conreality.camera_frame cf
-     WHERE cf.uuid = :camera_uuid;
+     WHERE cf.uuid = ...;
 
 Finding Players Near a GPS Point
 --------------------------------
@@ -78,7 +84,21 @@ Measuring the Distance Between Objects
 
 .. code-block:: postgresql
 
-   SELECT conreality.distance(...); -- TODO
+   SELECT conreality.distance_between(
+     (SELECT o1.position
+        FROM conreality.object o1
+        WHERE o1.label = 'Alice'),
+     (SELECT o2.position
+        FROM conreality.object o2
+        WHERE o2.label = 'Bob'))
+     AS distance;
+
+Plotting Current Target Positions
+---------------------------------
+
+.. code-block:: postgresql
+
+   -- TODO
 
 Tutorials
 =========
@@ -86,8 +106,11 @@ Tutorials
 Installation
 ============
 
-Documentation
-=============
+https://github.com/conreality/conreality.sql/blob/master/src/schema.sh
+
+::
+
+   src/schema.sh | psql > /dev/null
 
 Frequently Asked Questions (FAQ)
 ================================
@@ -113,25 +136,19 @@ TODO: diagram
 Function Reference
 ------------------
 
+.. describe:: conreality.distance_between(p1 geometry, p2 geometry)
+
+.. describe:: conreality.distance_between(p1 geography, p2 geography)
+
 .. describe:: conreality.event_send(event_predicate text, event_subject text, event_object text)
+
+.. describe:: conreality.message_send(message_text text)
 
 .. describe:: conreality.message_send(message_sender text, message_text text)
 
-.. describe:: conreality.object_is_located(object_uuid text)
+.. describe:: conreality.object_invert_mass(object_uuid text)
 
-Determines whether this object has a nonzero position.
-
-.. describe:: conreality.object_is_immovable(object_uuid text)
-
-Determines whether this is an immovable physical object.
-
-.. describe:: conreality.object_is_moving(object_uuid text)
-
-Determines whether this object has a nonzero linear velocity.
-
-.. describe:: conreality.object_is_rotating(object_uuid text)
-
-Determines whether this object has a nonzero angular velocity.
+Computes the inverse mass of this object.
 
 .. describe:: conreality.object_is_accelerating(object_uuid text)
 
@@ -141,19 +158,31 @@ Determines whether this object has a nonzero linear acceleration.
 
 Determines whether this object is currently active.
 
+.. describe:: conreality.object_is_immovable(object_uuid text)
+
+Determines whether this is an immovable physical object.
+
 .. describe:: conreality.object_is_inactive(object_uuid text)
 
 Determines whether this object is currently inactive.
 
-.. describe:: conreality.object_invert_mass(object_uuid text)
+.. describe:: conreality.object_is_located(object_uuid text)
 
-Computes the inverse mass of this object.
+Determines whether this object has a nonzero position.
+
+.. describe:: conreality.object_is_moving(object_uuid text)
+
+Determines whether this object has a nonzero linear velocity.
+
+.. describe:: conreality.object_is_rotating(object_uuid text)
+
+Determines whether this object has a nonzero angular velocity.
+
+.. describe:: conreality.player_deregister(player_uuid uuid)
 
 .. describe:: conreality.player_register()
 
 .. describe:: conreality.player_register(player_uuid uuid, player_nick text)
-
-.. describe:: conreality.player_deregister(player_uuid uuid)
 
 .. describe:: conreality.point_2d(x float, y float)
 
