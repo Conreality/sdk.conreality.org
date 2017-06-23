@@ -19,10 +19,11 @@ Conreality Software Development Kit (SDK) Manual
    SDK for Ruby   <ruby/index>
    SDK for SQL    <sql/index>
    history
-   glossary
+   license
 
 Indices and Tables
 ==================
 
+* :ref:`glossary`
 * :ref:`genindex`
 * :ref:`search`
