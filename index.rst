@@ -18,6 +18,7 @@ Conreality Software Development Kit (SDK) Manual
    SDK for Python <python/index>
    SDK for Ruby   <ruby/index>
    SDK for SQL    <sql/index>
+   contrib
    history
    license
 
