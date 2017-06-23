@@ -1,3 +1,6 @@
+# Assemblies
+*.dll
+
 # Program binaries
 connect.exe
 
