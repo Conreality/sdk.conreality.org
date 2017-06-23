@@ -36,6 +36,8 @@ Installation
 Documentation
 =============
 
+.. describe:: #include <conreality.h>
+
 .. cpp:class:: conreality::client
 
 .. cpp:class:: conreality::event
