@@ -22,6 +22,7 @@ All materials herein are released into the
 Prerequisites
 =============
 
+* Python 3.5+
 * `Sphinx
   <https://pypi.python.org/pypi/Sphinx>`__
 * `Sphinx Bootstrap Theme
@@ -31,8 +32,8 @@ Prerequisites
 
 ::
 
-   $ pip install -U sphinx
-   $ pip install -U sphinx_bootstrap_theme
+   $ pip3 install -U sphinx
+   $ pip3 install -U sphinx_bootstrap_theme
    $ brew install graphviz
 
 Building the Manual
