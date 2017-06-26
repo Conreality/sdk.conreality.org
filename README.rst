@@ -22,11 +22,15 @@ All materials herein are released into the
 Prerequisites
 =============
 
+To build this manual, the following software is required:
+
 * Python 3.5+
 * `Sphinx
   <https://pypi.python.org/pypi/Sphinx>`__
+  1.6.2+
 * `Sphinx Bootstrap Theme
   <https://pypi.python.org/pypi/sphinx-bootstrap-theme/>`__
+  0.5.3+
 * `Graphviz
   <http://www.graphviz.org/Download..php>`__
 
@@ -34,7 +38,9 @@ Prerequisites
 
    $ pip3 install -U sphinx
    $ pip3 install -U sphinx_bootstrap_theme
-   $ brew install graphviz
+
+   $ brew install graphviz  # on macOS
+   $ apt install graphviz   # on Ubuntu or Debian Linux
 
 Building the Manual
 ===================
