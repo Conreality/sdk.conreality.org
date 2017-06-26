@@ -22,10 +22,18 @@ All materials herein are released into the
 Prerequisites
 =============
 
+* `Sphinx
+  <https://pypi.python.org/pypi/Sphinx>`__
+* `Sphinx Bootstrap Theme
+  <https://pypi.python.org/pypi/sphinx-bootstrap-theme/>`__
+* `Graphviz
+  <http://www.graphviz.org/Download..php>`__
+
 ::
 
    $ pip install -U sphinx
    $ pip install -U sphinx_bootstrap_theme
+   $ brew install graphviz
 
 Building the Manual
 ===================
