@@ -16,8 +16,8 @@ This is the source repository for the
 `Conreality Software Development Kit (SDK) <https://sdk.conreality.org/>`__
 manual and website.
 
-*All materials herein are released into the `public domain
-<https://creativecommons.org/publicdomain/zero/1.0/>`__.*
+All materials herein are released into the `public domain
+<https://creativecommons.org/publicdomain/zero/1.0/>`__.
 
 Prerequisites
 =============
