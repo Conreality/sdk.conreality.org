@@ -1,0 +1,3 @@
+[submodule ".imports/conreality.py"]
+	path = .imports/conreality.py
+	url = https://github.com/conreality/conreality.py.git
