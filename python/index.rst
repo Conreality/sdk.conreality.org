@@ -45,6 +45,20 @@ https://pypi.python.org/pypi/conreality
 
    $ pip3 install conreality
 
+Overview
+========
+
+.. py:currentmodule:: conreality.sdk
+
+.. inheritance-diagram:: AsyncClient Client Session
+   :parts: 1
+
+.. inheritance-diagram:: Binary Event Message
+   :parts: 1
+
+.. inheritance-diagram:: Asset Camera Object Player Theater
+   :parts: 1
+
 Documentation
 =============
 
@@ -83,7 +97,7 @@ See https://github.com/conreality/conreality.py
 Does the Python SDK also support Python 3.4?
 --------------------------------------------
 
-No, as the third-party dependencies we rely on (specifically, `asyncpg`)
+No, as the third-party dependencies we rely on (specifically, *asyncpg*)
 require Python 3.5 at minimum.
 
 Does the Python SDK also support Python 2.7?
