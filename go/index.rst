@@ -46,6 +46,8 @@ https://godoc.org/github.com/conreality/conreality.go
 
    $ go doc github.com/conreality/conreality.go
 
+.. go:package:: conreality
+
 Frequently Asked Questions (FAQ)
 ================================
 

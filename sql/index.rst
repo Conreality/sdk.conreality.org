@@ -136,6 +136,8 @@ TODO: diagram
 Function Reference
 ------------------
 
+.. sql:schema:: conreality
+
 .. describe:: conreality.distance_between(p1 geometry, p2 geometry)
 
 .. describe:: conreality.distance_between(p1 geography, p2 geography)

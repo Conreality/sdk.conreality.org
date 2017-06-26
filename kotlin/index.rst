@@ -33,6 +33,8 @@ Installation
 Documentation
 =============
 
+.. kt:package:: org.conreality.sdk
+
 Frequently Asked Questions (FAQ)
 ================================
 

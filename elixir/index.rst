@@ -33,6 +33,10 @@ Installation
 Documentation
 =============
 
+.. ex:package:: conreality
+
+.. ex:module:: Conreality
+
 Frequently Asked Questions (FAQ)
 ================================
 

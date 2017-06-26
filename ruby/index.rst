@@ -33,6 +33,10 @@ Installation
 Documentation
 =============
 
+.. rb:library:: conreality
+
+.. rb:module:: Conreality
+
 .. py:currentmodule:: Conreality
 
 .. py:class:: Asset

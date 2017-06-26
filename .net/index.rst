@@ -32,6 +32,8 @@ Installation
 Documentation
 =============
 
+.. dotnet:assembly:: Conreality
+
 Frequently Asked Questions (FAQ)
 ================================
 
