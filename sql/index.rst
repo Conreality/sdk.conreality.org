@@ -128,70 +128,115 @@ No, the Conreality SDK for SQL targets exclusively PostgreSQL.
 Reference
 =========
 
+.. sql:schema:: conreality
+
+Data Type Reference
+-------------------
+
+.. sql:type:: conreality.binary_type
+
+.. sql:type:: conreality.object_type
+
 Table Schema
 ------------
 
 TODO: diagram
 
+Table Reference
+---------------
+
+.. sql:table:: conreality.asset
+
+.. sql:table:: conreality.binary
+
+.. sql:table:: conreality.camera
+
+.. sql:table:: conreality.camera_frame
+
+.. sql:table:: conreality.event
+
+.. sql:table:: conreality.group
+
+.. sql:table:: conreality.message
+
+.. sql:table:: conreality.object
+
+.. sql:table:: conreality.player
+
+.. sql:table:: conreality.target
+
+.. sql:table:: conreality.theater
+
+View Reference
+--------------
+
+.. sql:view:: conreality.message_with_avatar
+
+.. sql:view:: conreality.object_asset
+
+.. sql:view:: conreality.object_camera
+
+.. sql:view:: conreality.object_player
+
+.. sql:view:: conreality.object_target
+
 Function Reference
 ------------------
 
-.. sql:schema:: conreality
+.. sql:function:: conreality.distance_between(p1 geometry, p2 geometry)
 
-.. describe:: conreality.distance_between(p1 geometry, p2 geometry)
+.. sql:function:: conreality.distance_between(p1 geography, p2 geography)
 
-.. describe:: conreality.distance_between(p1 geography, p2 geography)
+.. sql:function:: conreality.event_send(event_predicate text, event_subject text, event_object text)
 
-.. describe:: conreality.event_send(event_predicate text, event_subject text, event_object text)
+.. sql:function:: conreality.message_send(message_text text)
 
-.. describe:: conreality.message_send(message_text text)
+.. sql:function:: conreality.message_send(message_sender text, message_text text)
 
-.. describe:: conreality.message_send(message_sender text, message_text text)
-
-.. describe:: conreality.object_invert_mass(object_uuid text)
+.. sql:function:: conreality.object_invert_mass(object_uuid text)
 
 Computes the inverse mass of this object.
 
-.. describe:: conreality.object_is_accelerating(object_uuid text)
+.. sql:function:: conreality.object_is_accelerating(object_uuid text)
 
 Determines whether this object has a nonzero linear acceleration.
 
-.. describe:: conreality.object_is_active(object_uuid text)
+.. sql:function:: conreality.object_is_active(object_uuid text)
 
 Determines whether this object is currently active.
 
-.. describe:: conreality.object_is_immovable(object_uuid text)
+.. sql:function:: conreality.object_is_immovable(object_uuid text)
 
 Determines whether this is an immovable physical object.
 
-.. describe:: conreality.object_is_inactive(object_uuid text)
+.. sql:function:: conreality.object_is_inactive(object_uuid text)
 
 Determines whether this object is currently inactive.
 
-.. describe:: conreality.object_is_located(object_uuid text)
+.. sql:function:: conreality.object_is_located(object_uuid text)
 
 Determines whether this object has a nonzero position.
 
-.. describe:: conreality.object_is_moving(object_uuid text)
+.. sql:function:: conreality.object_is_moving(object_uuid text)
 
 Determines whether this object has a nonzero linear velocity.
 
-.. describe:: conreality.object_is_rotating(object_uuid text)
+.. sql:function:: conreality.object_is_rotating(object_uuid text)
 
 Determines whether this object has a nonzero angular velocity.
 
-.. describe:: conreality.player_deregister(player_uuid uuid)
+.. sql:function:: conreality.player_deregister(player_uuid uuid)
 
-.. describe:: conreality.player_register()
+.. sql:function:: conreality.player_register()
 
-.. describe:: conreality.player_register(player_uuid uuid, player_nick text)
+.. sql:function:: conreality.player_register(player_uuid uuid, player_nick text)
 
-.. describe:: conreality.point_2d(x float, y float)
+.. sql:function:: conreality.point_2d(x float, y float)
 
-.. describe:: conreality.point_3d(x float, y float, z float)
+.. sql:function:: conreality.point_3d(x float, y float, z float)
 
-.. describe:: conreality.point_gps(lon float, lat float)
+.. sql:function:: conreality.point_gps(lon float, lat float)
 
-.. describe:: conreality.session_start()
+.. sql:function:: conreality.session_start()
 
-.. describe:: conreality.session_terminate()
+.. sql:function:: conreality.session_terminate()
