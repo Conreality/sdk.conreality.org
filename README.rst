@@ -26,13 +26,16 @@ The following software is required in order to build this manual from source:
 
 * `Python
   <https://www.python.org/downloads/>`__
-  3.5+
+  (3.5+)
 * `Sphinx
   <https://pypi.python.org/pypi/Sphinx>`__
-  1.6.2+
-* `Sphinx Bootstrap Theme
+  (1.6.2+)
+* `Sphinx Bootstrap
   <https://pypi.python.org/pypi/sphinx-bootstrap-theme>`__
-  0.5.3+
+  theme (0.5.3+)
+* `Sphinx Polyglot
+  <https://github.com/bendiken/sphinx-polyglot>`__
+  extension (HEAD)
 * `Graphviz
   <http://www.graphviz.org/Download..php>`__
 
