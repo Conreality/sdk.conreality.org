@@ -25,6 +25,7 @@ Conreality Software Development Kit (SDK) Manual
 Indices and Tables
 ==================
 
-* :ref:`glossary`
+* :doc:`xref`
+* :doc:`glossary`
 * :ref:`genindex`
 * :ref:`search`
