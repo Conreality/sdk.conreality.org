@@ -1,6 +1,6 @@
-******************
-sdk.conreality.org
-******************
+************************************************
+Conreality Software Development Kit (SDK) Manual
+************************************************
 
 .. image:: https://img.shields.io/badge/license-Public%20Domain-blue.svg
    :alt: Project license
@@ -16,15 +16,17 @@ This is the source repository for the
 `Conreality Software Development Kit (SDK) <https://sdk.conreality.org/>`__
 manual and website.
 
-All materials herein are released into the
-`public domain <https://creativecommons.org/publicdomain/zero/1.0/>`__.
+*All materials herein are released into the
+`public domain <https://creativecommons.org/publicdomain/zero/1.0/>`__.*
 
 Prerequisites
 =============
 
-To build this manual, the following software is required:
+The following software is required in order to build this manual from source:
 
-* Python 3.5+
+* `Python
+  <https://www.python.org/downloads/>`__
+  3.5+
 * `Sphinx
   <https://pypi.python.org/pypi/Sphinx>`__
   1.6.2+
@@ -39,8 +41,8 @@ To build this manual, the following software is required:
    $ pip3 install -U sphinx
    $ pip3 install -U sphinx_bootstrap_theme
 
-   $ brew install graphviz  # on macOS
-   $ apt install graphviz   # on Ubuntu or Debian Linux
+   $ brew install graphviz      # on macOS
+   $ sudo apt install graphviz  # on Ubuntu or Debian Linux
 
 Building the Manual
 ===================
