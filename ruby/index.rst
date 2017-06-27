@@ -37,29 +37,27 @@ Documentation
 
 .. rb:module:: Conreality
 
-.. py:currentmodule:: Conreality
+.. rb:class:: Asset
 
-.. py:class:: Asset
+.. rb:class:: Binary
 
-.. py:class:: Binary
+.. rb:class:: Camera
 
-.. py:class:: Camera
+.. rb:class:: Client
 
-.. py:class:: Client
+.. rb:class:: Database
 
-.. py:class:: Database
+.. rb:class:: Event
 
-.. py:class:: Event
+.. rb:class:: Message
 
-.. py:class:: Message
+.. rb:class:: Object
 
-.. py:class:: Object
+.. rb:class:: Player
 
-.. py:class:: Player
+.. rb:class:: Session
 
-.. py:class:: Session
-
-.. py:class:: Theater
+.. rb:class:: Theater
 
 Frequently Asked Questions (FAQ)
 ================================
