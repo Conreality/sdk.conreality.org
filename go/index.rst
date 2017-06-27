@@ -48,6 +48,40 @@ https://godoc.org/github.com/conreality/conreality.go
 
 .. go:package:: conreality
 
+.. go:const:: Version
+
+.. go:type:: Asset
+
+.. go:type:: Binary
+
+.. go:type:: Camera
+
+.. go:type:: Client
+
+.. go:func:: Connect(gameName string) (*Client, error)
+
+.. go:func:: (client *Client) Begin() (*Scope, error)
+
+.. go:func:: (client *Client) Disconnect() error
+
+.. go:type:: Event
+
+.. go:type:: Message
+
+.. go:type:: Object
+
+.. go:type:: Player
+
+.. go:type:: Scope
+
+.. go:func:: (scope *Scope) Abort() error
+
+.. go:func:: (scope *Scope) Commit() error
+
+.. go:type:: Session
+
+.. go:type:: Theater
+
 Frequently Asked Questions (FAQ)
 ================================
 
