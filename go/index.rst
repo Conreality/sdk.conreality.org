@@ -17,8 +17,12 @@ Prerequisites
 =============
 
 * `Go <https://golang.org>`__ 1.6+
-* `github.com/lib/pq <https://godoc.org/github.com/lib/pq>`__
-* `github.com/satori/go.uuid <https://godoc.org/github.com/satori/go.uuid>`__
+* `github.com/lib/pq
+  <https://godoc.org/github.com/lib/pq>`__
+* `github.com/pkg/errors
+  <https://godoc.org/github.com/pkg/errors>`__
+* `github.com/satori/go.uuid
+  <https://godoc.org/github.com/satori/go.uuid>`__
 
 Examples
 ========
@@ -57,6 +61,32 @@ https://godoc.org/github.com/conreality/conreality.go
 
    fmt.Printf("Conreality SDK for Go v%s\n", conreality.Version)
 
+.. go:type:: Action
+
+.. go:func:: (action *Action) Abort() error
+
+.. go:func:: (action *Action) Commit() error
+
+.. go:func:: (action *Action) SendEvent(predicate string, subject, object *Object) (*Event, error)
+
+.. code-block:: go
+
+   var event, err = action.SendEvent("met", bob, alice)
+   if err != nil {
+     panic(err)
+   }
+   fmt.Printf("Sent an event: #%#v\n", event)
+
+.. go:func:: (action *Action) SendMessage(messageText string) (*Message, error)
+
+.. code-block:: go
+
+   var message, err = action.SendMessage("Greetings from Go!")
+   if err != nil {
+     panic(err)
+   }
+   fmt.Printf("Sent a message: #%#v\n", message)
+
 .. go:type:: Asset
 
 .. go:type:: Binary
@@ -65,29 +95,31 @@ https://godoc.org/github.com/conreality/conreality.go
 
 .. go:type:: Client
 
-.. go:func:: Connect(gameName string) (*Client, error)
+.. go:func:: Connect(masterHost string) (*Client, error)
 
 .. code-block:: go
 
-   var client, err = conreality.Connect("skynet")
+   var client, err = conreality.Connect("skynet.local")
    if err != nil {
      panic(err)
    }
    defer client.Disconnect()
 
-.. go:func:: (client *Client) Begin() (*Scope, error)
+.. go:func:: (client *Client) Disconnect() error
+
+.. go:func:: (client *Client) Login(agentUUID string, secret string) (*Session, error)
 
 .. code-block:: go
 
-   var scope, err = client.Begin()
+   var session, err = client.Login("ff27a78c-a8b3-48a5-bf7c-41b22cf14333", "")
    if err != nil {
      panic(err)
    }
-   defer scope.Commit()
-
-.. go:func:: (client *Client) Disconnect() error
+   defer session.Logout()
 
 .. go:type:: Event
+
+.. go:type:: Game
 
 .. go:type:: Message
 
@@ -95,23 +127,21 @@ https://godoc.org/github.com/conreality/conreality.go
 
 .. go:type:: Player
 
-.. go:type:: Scope
+.. go:type:: Session
 
-.. go:func:: (scope *Scope) Abort() error
+.. go:func:: (session *Session) Logout() error
 
-.. go:func:: (scope *Scope) Commit() error
+.. go:func:: (session *Session) Game() *Game
 
-.. go:func:: (scope *Scope) SendMessage(messageText string) (int64, error)
+.. go:func:: (session *Session) NewAction() (*Action, error)
 
 .. code-block:: go
 
-   var messageID, err = scope.SendMessage("Greetings from Go!")
+   var action, err = session.NewAction()
    if err != nil {
      panic(err)
    }
-   fmt.Printf("Sent a message with ID #%d\n", messageID)
-
-.. go:type:: Session
+   defer action.Commit()
 
 .. go:type:: Theater
 
