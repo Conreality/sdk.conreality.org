@@ -20,10 +20,16 @@ Prerequisites
 Examples
 ========
 
+Connecting to the Master
+------------------------
+
+.. literalinclude:: examples/connect.cs
+   :language: c#
+
 Connecting to the Master (without the SDK)
 ------------------------------------------
 
-.. literalinclude:: examples/connect.cs
+.. literalinclude:: examples/lowlevel.cs
    :language: c#
 
 Installation
