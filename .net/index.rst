@@ -20,14 +20,20 @@ Prerequisites
 Examples
 ========
 
-Connecting to the Master
-------------------------
+Connecting to the Master (without the SDK)
+------------------------------------------
 
 .. literalinclude:: examples/connect.cs
    :language: c#
 
 Installation
 ============
+
+https://www.nuget.org/packages/Conreality/
+
+.. code-block:: console
+
+   $ nuget install Conreality
 
 Documentation
 =============
@@ -37,6 +43,8 @@ Documentation
 .. code-block:: c#
 
    using Conreality;
+
+.. dotnet:class:: Client
 
 Frequently Asked Questions (FAQ)
 ================================
