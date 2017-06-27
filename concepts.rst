@@ -11,26 +11,11 @@ to the Conreality Game Development Kit (GDK) manual.*
 Master
 ======
 
-Slave
-=====
+A *Conreality master* is a game server on the local network.
 
-Asset
-=====
-
-Device
+Client
 ======
 
-Object
-======
-
-Scenario
-========
-
-Swarm
-=====
-
-Target
-======
-
-Theater
-=======
+A *Conreality client* is a software library for connecting to and
+communicating with a Conreality master server. The Conreality SDKs for
+various supported programming languages each implement a Conreality client.
