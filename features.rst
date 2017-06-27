@@ -11,4 +11,5 @@ Code coverage (with Coveralls)
 Platform compatibility with Linux
 Platform compatibility with macOS
 Platform compatibility with Windows
+Transactional scopes                                                     ✓         ✓      ✓    ✓
 ======================================================== ==== === ====== == ====== ====== ==== ===
