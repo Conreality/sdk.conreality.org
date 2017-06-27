@@ -33,7 +33,7 @@ Connecting to the Master
 Connecting to the Master (without the SDK)
 ------------------------------------------
 
-.. literalinclude:: examples/connect_asyncpg.py
+.. literalinclude:: examples/lowlevel.py
    :language: python3
 
 Installation
