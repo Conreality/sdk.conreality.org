@@ -2,7 +2,7 @@
 Conreality Software Development Kit (SDK) for Go
 ************************************************
 
-The Conreality SDK for Go is currently at a planning stage at:
+The Conreality SDK for Go is currently at an early development stage at:
 https://github.com/conreality/conreality.go
 
 .. note::
