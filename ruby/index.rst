@@ -35,6 +35,10 @@ Documentation
 
 .. rb:library:: conreality
 
+.. code-block:: ruby
+
+   require 'conreality'
+
 .. rb:module:: Conreality
 
 .. rb:class:: Asset

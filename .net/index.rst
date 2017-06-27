@@ -34,6 +34,10 @@ Documentation
 
 .. dotnet:assembly:: Conreality
 
+.. code-block:: c#
+
+   using Conreality;
+
 Frequently Asked Questions (FAQ)
 ================================
 

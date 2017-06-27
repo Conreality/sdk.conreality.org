@@ -38,6 +38,12 @@ Documentation
 
 .. describe:: #include <conreality.h>
 
+.. code-block:: c++
+
+   #include <conreality.h>
+
+   using namespace conreality;
+
 .. cpp:class:: conreality::client
 
 .. cpp:class:: conreality::event

@@ -47,7 +47,15 @@ https://godoc.org/github.com/conreality/conreality.go
 
 .. go:package:: conreality
 
+.. code-block:: go
+
+   import "github.com/conreality/conreality.go"
+
 .. go:const:: Version
+
+.. code-block:: go
+
+   fmt.Printf("Conreality SDK for Go v%s\n", conreality.Version)
 
 .. go:type:: Asset
 
@@ -59,7 +67,23 @@ https://godoc.org/github.com/conreality/conreality.go
 
 .. go:func:: Connect(gameName string) (*Client, error)
 
+.. code-block:: go
+
+   var client, err = conreality.Connect("skynet")
+   if err != nil {
+     panic(err)
+   }
+   defer client.Disconnect()
+
 .. go:func:: (client *Client) Begin() (*Scope, error)
+
+.. code-block:: go
+
+   var scope, err = client.Begin()
+   if err != nil {
+     panic(err)
+   }
+   defer scope.Commit()
 
 .. go:func:: (client *Client) Disconnect() error
 
@@ -76,6 +100,16 @@ https://godoc.org/github.com/conreality/conreality.go
 .. go:func:: (scope *Scope) Abort() error
 
 .. go:func:: (scope *Scope) Commit() error
+
+.. go:func:: (scope *Scope) SendMessage(messageText string) (int64, error)
+
+.. code-block:: go
+
+   var messageID, err = scope.SendMessage("Greetings from Go!")
+   if err != nil {
+     panic(err)
+   }
+   fmt.Printf("Sent a message with ID #%d\n", messageID)
 
 .. go:type:: Session
 

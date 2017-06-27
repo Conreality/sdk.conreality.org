@@ -108,9 +108,9 @@ Installation
 
 https://github.com/conreality/conreality.sql/blob/master/src/schema.sh
 
-::
+.. code-block:: console
 
-   src/schema.sh | psql > /dev/null
+   $ src/schema.sh | psql > /dev/null
 
 Frequently Asked Questions (FAQ)
 ================================
@@ -129,6 +129,10 @@ Reference
 =========
 
 .. sql:schema:: conreality
+
+.. code-block:: postgresql
+
+   SET search_path TO "$user", conreality, public, topology;
 
 Data Type Reference
 -------------------

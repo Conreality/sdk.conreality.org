@@ -64,6 +64,10 @@ Documentation
 
 .. py:module:: conreality.sdk
 
+.. code-block:: python3
+
+   import conreality.sdk as sdk
+
 .. py:class:: Asset
 
 .. py:class:: Binary

@@ -35,6 +35,10 @@ Documentation
 
 .. kt:package:: org.conreality.sdk
 
+.. code-block:: kotlin
+
+   import org.conreality.sdk
+
 Frequently Asked Questions (FAQ)
 ================================
 
