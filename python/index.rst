@@ -59,8 +59,8 @@ Overview
 .. inheritance-diagram:: Asset Camera Object Player Theater
    :parts: 1
 
-Documentation
-=============
+Reference
+=========
 
 .. py:module:: conreality.sdk
 

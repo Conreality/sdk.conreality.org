@@ -40,8 +40,8 @@ Installation
 
    $ go get github.com/conreality/conreality.go
 
-Documentation
-=============
+Reference
+=========
 
 https://godoc.org/github.com/conreality/conreality.go
 

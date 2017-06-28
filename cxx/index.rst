@@ -33,8 +33,8 @@ Connecting to the Master
 Installation
 ============
 
-Documentation
-=============
+Reference
+=========
 
 .. describe:: #include <conreality.h>
 

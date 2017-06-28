@@ -41,8 +41,8 @@ https://www.nuget.org/packages/Conreality/
 
    $ nuget install Conreality
 
-Documentation
-=============
+Reference
+=========
 
 .. dotnet:assembly:: Conreality.dll
 

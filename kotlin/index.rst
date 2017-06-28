@@ -30,8 +30,8 @@ Connecting to the Master
 Installation
 ============
 
-Documentation
-=============
+Reference
+=========
 
 .. kt:package:: org.conreality.sdk
 
