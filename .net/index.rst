@@ -2,7 +2,7 @@
 Conreality Software Development Kit (SDK) for .NET
 **************************************************
 
-The Conreality SDK for .NET is currently at a planning stage at:
+The Conreality SDK for .NET is currently at an early development stage at:
 https://github.com/conreality/conreality.net
 
 .. note::
@@ -44,13 +44,27 @@ https://www.nuget.org/packages/Conreality/
 Documentation
 =============
 
-.. dotnet:assembly:: Conreality
+.. dotnet:assembly:: Conreality.dll
+
+.. dotnet:namespace:: Conreality
 
 .. code-block:: c#
 
    using Conreality;
 
+.. dotnet:class:: Action
+
 .. dotnet:class:: Client
+
+.. dotnet:class:: Event
+
+.. dotnet:class:: Game
+
+.. dotnet:class:: Message
+
+.. dotnet:class:: Object
+
+.. dotnet:class:: Session
 
 Frequently Asked Questions (FAQ)
 ================================

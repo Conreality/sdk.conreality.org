@@ -5,8 +5,8 @@ using Conreality;
 public class Connect {
   public static void Main() {
 
-    var client = new Conreality.Client();
-
-    // TODO
+    using (var client = new Conreality.Client()) {
+      // TODO
+    }
   }
 }
