@@ -61,6 +61,9 @@ https://godoc.org/github.com/conreality/conreality.go
 
    fmt.Printf("Conreality SDK for Go v%s\n", conreality.Version)
 
+Actions
+-------
+
 .. go:type:: Action
 
 .. go:func:: (action *Action) Abort() error
@@ -87,19 +90,55 @@ https://godoc.org/github.com/conreality/conreality.go
    }
    fmt.Printf("Sent a message: #%#v\n", message)
 
-.. go:type:: Asset
-
-.. go:type:: Binary
-
-.. go:type:: Camera
-
-.. go:type:: Client
-
-.. go:func:: Connect(masterHost string) (*Client, error)
+.. go:func:: (action *Action) SendAudioMessage(...) (*Message, error)
 
 .. code-block:: go
 
-   var client, err = conreality.Connect("skynet.local")
+   // TODO
+
+.. go:func:: (action *Action) BeginAudioMessage(...) (*?, error)
+
+.. code-block:: go
+
+   // TODO
+
+.. go:func:: (action *Action) ReportLocation(location Location) error
+
+.. code-block:: go
+
+   // TODO
+
+.. go:func:: (action *Action) ReportMotion(...) error
+
+.. code-block:: go
+
+   // TODO
+
+Assets
+------
+
+.. go:type:: Asset
+
+Binaries
+--------
+
+.. go:type:: Binary
+
+Cameras
+-------
+
+.. go:type:: Camera
+
+Clients
+-------
+
+.. go:type:: Client
+
+.. go:func:: Connect(gameURL string) (*Client, error)
+
+.. code-block:: go
+
+   var client, err = conreality.Connect("tcp://skynet.local")
    if err != nil {
      panic(err)
    }
@@ -117,15 +156,36 @@ https://godoc.org/github.com/conreality/conreality.go
    }
    defer session.Logout()
 
+Events
+------
+
 .. go:type:: Event
+
+Games
+-----
 
 .. go:type:: Game
 
+Locations
+---------
+
+Messages
+--------
+
 .. go:type:: Message
+
+Objects
+-------
 
 .. go:type:: Object
 
+Players
+-------
+
 .. go:type:: Player
+
+Sessions
+--------
 
 .. go:type:: Session
 
@@ -142,6 +202,9 @@ https://godoc.org/github.com/conreality/conreality.go
      panic(err)
    }
    defer action.Commit()
+
+Theaters
+--------
 
 .. go:type:: Theater
 

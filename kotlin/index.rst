@@ -2,7 +2,7 @@
 Conreality Software Development Kit (SDK) for Kotlin
 ****************************************************
 
-The Conreality SDK for Kotlin is currently at a planning stage at:
+The Conreality SDK for Kotlin is currently at an early development stage at:
 https://github.com/conreality/conreality.kt
 
 .. note::
@@ -15,10 +15,14 @@ https://github.com/conreality/conreality.kt
 Prerequisites
 =============
 
-* Java 8
-* `Kotlin <https://kotlinlang.org/>`__ 1.1+
-* `PgJDBC <https://jdbc.postgresql.org/>`__ 42+
-* `HikariCP <https://brettwooldridge.github.io/HikariCP/>`__ 2.6+
+* `Java 8
+  <http://www.oracle.com/technetwork/java/javase/overview/java8-2100321.html>`__
+* `Kotlin
+  <https://kotlinlang.org/>`__ 1.1+
+* `PgJDBC
+  <https://jdbc.postgresql.org/>`__ 42+
+* `HikariCP
+  <https://brettwooldridge.github.io/HikariCP/>`__ 2.6+
 
 Examples
 ========
@@ -32,6 +36,10 @@ Connecting to the Master
 Installation
 ============
 
+.. code-block:: kotlin
+
+   // TODO
+
 Reference
 =========
 
@@ -39,9 +47,9 @@ Reference
 
 .. code-block:: kotlin
 
-   import org.conreality.sdk
+   import org.conreality.sdk.*
 
-Classes
+Actions
 -------
 
 .. kt:class:: Action
@@ -58,23 +66,63 @@ Classes
 
 .. kt:method:: Action#sendEvent(String, Object, Object): Event
 
+.. code-block:: kotlin
+
+   // TODO
+
 .. kt:method:: Action#sendMessage(String): Message
+
+.. code-block:: kotlin
+
+   // TODO
 
 .. kt:method:: Action#sendAudioMessage(ByteArray): Message
 
+.. code-block:: kotlin
+
+   // TODO
+
 .. kt:method:: Action#sendAudioMessage(InputStream): Message
+
+.. code-block:: kotlin
+
+   // TODO
 
 .. kt:method:: Action#beginAudioMessage(): BinaryOutputStream
 
+.. code-block:: kotlin
+
+   // TODO
+
 .. kt:method:: Action#reportLocation(Location): Unit
 
+.. code-block:: kotlin
+
+   // TODO
+
 .. kt:method:: Action#reportMotion(): Unit
+
+.. code-block:: kotlin
+
+   // TODO
+
+Assets
+------
+
+Binaries
+--------
 
 .. kt:class:: Binary
 
 .. kt:property:: Binary#id: Long
 
 .. kt:property:: Binary#session: Session
+
+Cameras
+-------
+
+Clients
+-------
 
 .. kt:class:: Client
 
@@ -86,9 +134,20 @@ Classes
 
 .. kt:method:: Client#login(): Session
 
+.. code-block:: kotlin
+
+   // TODO
+
 .. kt:method:: Client#login(String, String): Session
 
+.. code-block:: kotlin
+
+   // TODO
+
 .. kt:method:: Client#login(UUID, String): Session
+
+Events
+------
 
 .. kt:class:: Event
 
@@ -96,21 +155,37 @@ Classes
 
 .. kt:property:: Event#session: Session
 
+Games
+-----
+
 .. kt:class:: Game
 
 .. kt:property:: Game#session: Session
 
+Locations
+---------
+
 .. kt:class:: Location
+
+.. code-block:: kotlin
+
+   // TODO
 
 .. kt:property:: Location#latitude: Double
 
 .. kt:property:: Location#longitude: Double
+
+Messages
+--------
 
 .. kt:class:: Message
 
 .. kt:property:: Message#id: Long
 
 .. kt:property:: Message#session: Session
+
+Objects
+-------
 
 .. kt:class:: Object
 
@@ -119,6 +194,12 @@ Classes
 .. kt:property:: Object#session: Session
 
 .. kt:property:: Object#uuid: UUID
+
+Players
+-------
+
+Sessions
+--------
 
 .. kt:class:: Session
 
@@ -136,7 +217,14 @@ Classes
 
 .. kt:method:: Session#close(): Unit
 
-.. kt:method:: Session#execute(body: (Action) -> T): T
+.. kt:method:: Session#execute(body: Action -> T): T
+
+.. code-block:: kotlin
+
+   // TODO
+
+Theaters
+--------
 
 Exceptions
 ----------
@@ -153,4 +241,17 @@ How can I help contribute to the development of the Kotlin SDK?
 
 See https://github.com/conreality/conreality.kt
 
-.. _PgJDBC: https://github.com/pgjdbc/pgjdbc
+Does the Kotlin SDK also support Kotlin releases prior to 1.1?
+--------------------------------------------------------------
+
+No, the Conreality SDK for Kotlin targets exclusively Kotlin 1.1+ and newer
+versions of Kotlin.
+
+Does the Kotlin SDK also support Java releases prior to Java 8?
+---------------------------------------------------------------
+
+No, the Conreality SDK for Kotlin targets exclusively `Java SE 8`_ and newer
+versions of the Java platform and runtime environment (JRE).
+
+.. _Java SE 8: https://en.wikipedia.org/wiki/Java_version_history#Java_SE_8
+.. _PgJDBC:    https://github.com/pgjdbc/pgjdbc
